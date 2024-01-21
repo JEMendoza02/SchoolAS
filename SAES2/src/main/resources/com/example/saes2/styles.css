@@ -1,0 +1,25 @@
+/* Estilo para el contenedor VBox */
+.loginContainer {
+    -fx-background-color: #0594ff; /* Color cian para el fondo del VBox */
+}
+
+/* Estilo para campos de texto con una línea en la parte inferior */
+.text-field, .password-field {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-text-fill: white; /* Color del texto blanco */
+    -fx-border-color: transparent transparent white transparent; /* Borde blanco solo en la parte inferior */
+    -fx-border-width: 0 0 1 0; /* Grosor del borde solo en la parte inferior */
+    -fx-font-weight: bold; /* Texto en negritas */
+    -fx-prompt-text-fill: white; /* Color del texto de marcador de posición */
+}
+
+/* Estilo para el botón de login por defecto (sin hover) */
+.login-button {
+    -fx-background-color: #0594ff; /* Cambia el color de fondo del botón a un tono azul */
+    -fx-text-fill: white; /*color del texto a blanco */
+    -fx-border-color: #FFFFFF; /* Color del borde del botón */
+    -fx-border-width: 2; /* Ancho del borde del botón */
+    -fx-border-radius: 40; /* Radio para bordes circulares */
+    -fx-font-weight: bold; /* Texto en negritas */
+    -fx-font-size: 20; /* Tamaño del texto */
+}

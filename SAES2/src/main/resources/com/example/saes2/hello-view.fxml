@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="loginContainer" alignment="CENTER" prefHeight="585.0" prefWidth="635.0" spacing="20.0" styleClass="loginContainer" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.saes2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Pane prefHeight="547.0" prefWidth="595.0" stylesheets="@styles.css">
+         <children>
+            <Label layoutX="37.0" layoutY="14.0" prefHeight="27.0" prefWidth="524.0" text="Bienvenido al Sistema de Administración Escolar" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="22.0" />
+               </font></Label>
+             <TextField fx:id="txtEmail" layoutX="177.0" layoutY="190.0" prefHeight="38.0" prefWidth="285.0" promptText="Email" styleClass="text-field">
+               <font>
+                  <Font name="Sans Serif Collection" size="12.0" />
+               </font></TextField>
+             <PasswordField fx:id="txtPassword" layoutX="177.0" layoutY="264.0" prefHeight="38.0" prefWidth="285.0" promptText="Password" styleClass="text-field" />
+             <Button fx:id="btnLogin" layoutX="170.0" layoutY="333.0" prefHeight="29.0" prefWidth="233.0" styleClass="login-button" text="Iniciar Sesión">Login</Button>
+            <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="120.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/perfil.png" />
+               </image></ImageView>
+            <Button fx:id="btnLogin1" layoutX="192.0" layoutY="435.0" prefHeight="27.0" prefWidth="190.0" styleClass="login-button" text="Registrarse" />
+            <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="120.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/cerrar-con-llave.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="409.0" layoutX="94.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/62456d4480975e9b78692bb1_Asset%201.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="199.0" layoutY="396.0" prefHeight="27.0" prefWidth="215.0" text="¿No tiene una cuenta?" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+
+      </Pane>
+
+             <Label fx:id="welcomeText" />
+   </children>
+</VBox>
