@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #99A3A4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="600.0" style="-fx-background-color: #0594ff;" styleClass="RegisterBorderPane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <bottom>
       <VBox prefHeight="400.0" prefWidth="581.0" BorderPane.alignment="CENTER">
          <children>
@@ -25,58 +24,58 @@
                   <Font name="Bell MT" size="18.0" />
                </font>
             </Label>
-            <VBox prefHeight="200.0" prefWidth="100.0">
+            <Pane prefHeight="291.0" prefWidth="540.0">
                <children>
-                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="311.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="-6.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="311.0">
                      <children>
-                        <Label text="Nombre">
+                        <Label text="Nombre" textFill="WHITE">
                            <padding>
                               <Insets right="30.0" />
                            </padding>
                         </Label>
-                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="193.0">
+                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="224.0">
                            <padding>
                               <Insets left="20.0" />
                            </padding>
                         </TextField>
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="289.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="34.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="301.0">
                      <children>
-                        <Label text="Apellidos">
+                        <Label prefHeight="17.0" prefWidth="92.0" text="Apellidos" textFill="WHITE">
                            <padding>
                               <Insets right="30.0" />
                            </padding>
                         </Label>
-                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="188.0" />
+                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" />
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="38.0" prefWidth="373.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="59.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="38.0" prefWidth="373.0">
                      <children>
-                        <Label text="Curp">
+                        <Label text="Curp" textFill="WHITE">
                            <padding>
                               <Insets right="30.0" />
                            </padding>
                         </Label>
-                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="213.0" />
+                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="244.0" />
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="270.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="299.0">
                      <children>
-                        <Label prefHeight="17.0" prefWidth="166.0" text="Telefono">
+                        <Label graphicTextGap="0.0" prefHeight="17.0" prefWidth="89.0" text="Telefono" textFill="WHITE">
                            <HBox.margin>
-                              <Insets right="30.0" />
+                              <Insets />
                            </HBox.margin>
                            <padding>
-                              <Insets right="30.0" />
+                              <Insets right="20.0" />
                            </padding>
                         </Label>
-                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="164.0" />
+                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="211.0" />
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="271.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="123.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="301.0">
                      <children>
-                        <Label prefHeight="17.0" prefWidth="138.0" text="Contraseña">
+                        <Label prefHeight="17.0" prefWidth="138.0" text="Contraseña" textFill="WHITE">
                            <padding>
                               <Insets right="30.0" />
                            </padding>
@@ -84,33 +83,30 @@
                         <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="184.0" />
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="271.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="115.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="303.0">
                      <children>
-                        <Label prefHeight="51.0" prefWidth="110.0" text="Repetir contraseña" wrapText="true">
+                        <Label prefHeight="51.0" prefWidth="110.0" text="Repetir contraseña" textFill="WHITE" wrapText="true">
                            <padding>
                               <Insets right="30.0" />
                            </padding>
                         </Label>
-                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="184.0" />
+                        <TextField alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="192.0" />
                      </children>
                   </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="111.0" layoutY="192.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="47.0" prefWidth="310.0">
+                     <children>
+                        <RadioButton mnemonicParsing="false" />
+                        <Label text="Acepto terminos y condiciones" textFill="WHITE">
+                           <padding>
+                              <Insets right="30.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="120.0" layoutY="215.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="9.0" prefWidth="271.0" />
+                  <Button id="RegisterBtn" fx:id="RegisterBtn" layoutX="198.0" layoutY="260.0" mnemonicParsing="false" styleClass="RegisterBtn" stylesheets="@img/RegisterStyle.css" text="Registrarse" textAlignment="CENTER" />
                </children>
-            </VBox>
-            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="47.0" prefWidth="289.0">
-               <children>
-                  <RadioButton mnemonicParsing="false" />
-                  <Label text="Acepto terminos y condiciones">
-                     <padding>
-                        <Insets right="30.0" />
-                     </padding>
-                  </Label>
-               </children>
-            </HBox>
-            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="9.0" prefWidth="271.0">
-               <children>
-                  <Button mnemonicParsing="false" text="Registrarse" textAlignment="CENTER" />
-               </children>
-            </HBox>
+            </Pane>
          </children>
          <BorderPane.margin>
             <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />

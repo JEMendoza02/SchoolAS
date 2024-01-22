@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox prefHeight="81.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_CENTER" prefHeight="80.0" prefWidth="990.0" text="Inscribir materias" textAlignment="CENTER">
+               <font>
+                  <Font name="Dubai Light" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="471.0" prefWidth="834.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="14.0" text="Nombre:" />
+                  <Label layoutX="156.0" layoutY="14.0" prefHeight="17.0" prefWidth="128.0" text="Apellidos" />
+                  <Label layoutX="295.0" layoutY="14.0" prefHeight="17.0" prefWidth="157.0" text="Nombre" />
+                  <Label layoutX="695.0" layoutY="14.0" prefHeight="17.0" prefWidth="32.0" text="Curp" />
+                  <Label layoutX="738.0" layoutY="14.0" prefHeight="17.0" prefWidth="205.0" text="XXXXXXXXXXXXXXXXXXXXXXX" />
+                  <Label layoutX="23.0" layoutY="46.0" prefHeight="20.0" prefWidth="225.0" text="Lista de materias a inscribir">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="225.0" prefHeight="17.0" prefWidth="133.0" text="Materias inscritas">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TableView layoutX="23.0" layoutY="73.0" prefHeight="136.0" prefWidth="916.0">
+                    <columns>
+                      <TableColumn prefWidth="63.0" text="Grupo" />
+                      <TableColumn prefWidth="193.0" text="Descripcion " />
+                        <TableColumn prefWidth="84.0" text="Semestre" />
+                        <TableColumn prefWidth="96.0" text="Area" />
+                        <TableColumn prefWidth="96.0" text="Lunes" />
+                        <TableColumn prefWidth="96.0" text="Martes" />
+                        <TableColumn prefWidth="96.0" text="Miercoles" />
+                        <TableColumn prefWidth="96.0" text="Jueves" />
+                        <TableColumn prefWidth="96.0" text="Viernes" />
+                    </columns>
+                  </TableView>
+                  <TableView layoutX="23.0" layoutY="255.0" prefHeight="136.0" prefWidth="916.0">
+                     <columns>
+                        <TableColumn prefWidth="63.0" text="Grupo" />
+                        <TableColumn prefWidth="193.0" text="Descripcion " />
+                        <TableColumn prefWidth="84.0" text="Semestre" />
+                        <TableColumn prefWidth="96.0" text="Area" />
+                        <TableColumn prefWidth="96.0" text="Lunes" />
+                        <TableColumn prefWidth="96.0" text="Martes" />
+                        <TableColumn prefWidth="96.0" text="Miercoles" />
+                        <TableColumn prefWidth="96.0" text="Jueves" />
+                        <TableColumn prefWidth="96.0" text="Viernes" />
+                     </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
