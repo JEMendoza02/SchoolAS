@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
 
-<VBox fx:id="loginContainer" alignment="CENTER" prefHeight="585.0" prefWidth="635.0" spacing="20.0" styleClass="loginContainer" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.saes2.HelloController">
+<VBox fx:id="loginContainer" alignment="CENTER" prefHeight="585.0" prefWidth="635.0" spacing="20.0" styleClass="loginContainer" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.saes2.SchoolASController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
