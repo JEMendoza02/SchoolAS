@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="551.0" styleClass="white-background" stylesheets="@interfazfxml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TableDesing.DatgpController">
+   <children>
+      <Label fx:id="grupo" alignment="CENTER" prefHeight="43.0" prefWidth="56.0" text="   3NM71" />
+      <Label fx:id="materia" alignment="CENTER" prefHeight="45.0" prefWidth="187.0" text="ECONOMIA DE LA INGENIERIA" />
+      <Label fx:id="c1" alignment="CENTER" prefHeight="45.0" prefWidth="64.0" text="10" />
+      <Label fx:id="c2" alignment="CENTER" prefHeight="45.0" prefWidth="67.0" text="9" />
+      <Label fx:id="c3" alignment="CENTER" prefHeight="45.0" prefWidth="67.0" text="10" />
+      <Label fx:id="cf" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="67.0" text="10" />
+   </children>
+</HBox>

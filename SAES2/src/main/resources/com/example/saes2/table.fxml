@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="VBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TableDesing.TableController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="618.0" styleClass="white-background" stylesheets="@interfazfxml.css">
+         <children>
+            <Label layoutX="4.0" layoutY="53.0" text="BOLETA: 2021601681 " />
+            <Label layoutX="2.0" layoutY="76.0" text="NOMBRE: Flores Reyes Miguel Angel" />
+            <HBox layoutX="2.0" layoutY="100.0" prefHeight="38.0" prefWidth="593.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="66.0" stylesheets="@interfazfxml.css" text="   GRUPO" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font></Label>
+                  <Label prefHeight="38.0" prefWidth="191.0" stylesheets="@interfazfxml.css" text="MATERIA" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" prefHeight="38.0" prefWidth="66.0" stylesheets="@interfazfxml.css" text="DEPTO 1" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" prefHeight="38.0" prefWidth="64.0" stylesheets="@interfazfxml.css" text="DEPTO 2" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" prefHeight="38.0" prefWidth="63.0" stylesheets="@interfazfxml.css" text="DEPTO 3" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" prefHeight="38.0" prefWidth="148.0" stylesheets="@interfazfxml.css" text="CALIFICACIÓN FINAL" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="label-with-border" />
+                        <String fx:value="label-with-background" />
+                     </styleClass>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+            <HBox layoutX="4.0" layoutY="150.0" prefHeight="246.0" prefWidth="593.0">
+               <children>
+                  <ScrollPane prefHeight="169.0" prefWidth="593.0" styleClass="transparent" stylesheets="@interfazfxml.css">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="241.0" prefWidth="589.0">
+                           <children>
+                              <VBox fx:id="DataLayout" layoutY="-13.0" prefHeight="257.0" prefWidth="593.0" styleClass="white-background">
+                                 <children>
+                                    <HBox prefHeight="45.0" prefWidth="591.0" styleClass="white-background" stylesheets="@interfazfxml.css">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="43.0" prefWidth="56.0" text="3NM71" textOverrun="CENTER_ELLIPSIS" />
+                                          <Label alignment="CENTER" prefHeight="45.0" prefWidth="187.0" text="ECONOMIA DE LA INGENIEARIA" />
+                                          <Label alignment="CENTER" prefHeight="45.0" prefWidth="64.0" text="10" />
+                                          <Label alignment="CENTER" prefHeight="45.0" prefWidth="67.0" text="9" />
+                                          <Label alignment="CENTER" prefHeight="45.0" prefWidth="67.0" text="10" />
+                                          <Label alignment="CENTER" prefHeight="45.0" prefWidth="67.0" text="10" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</VBox>

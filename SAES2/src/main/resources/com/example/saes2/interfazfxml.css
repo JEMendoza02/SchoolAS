@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.label-with-border {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+
+}
+.label-with-background {
+    -fx-background-color: #0594ff; /* Cambia el color a tu preferencia utilizando un código hexadecimal o un nombre de color */
+    -fx-padding: 2px; /* Agrega relleno para que el color de fondo sea más visible */
+}
+.white-background
+{
+    -fx-background-color: #fff;
+}
+.transparent
+{
+    -fx-background-color: rgba(0,0,0,0);
+}
